@@ -12,9 +12,9 @@ The divergence between labeled training data and unlabeled testing data is a sig
 ### Result
 | source  | target     | device                | GPU memory | mIoU-19 | mIoU-16 | mIoU-13 | model |
 |---------|------------|-----------------------|------------|---------|---------|---------|-------|
-| GTA5    | Cityscapes | Tesla V100-32GB       | 18.5 GB    | 51.88   | -       | -       |   [download](https://doc-0g-84-docs.googleusercontent.com/docs/securesc/dq39omgiccorh3pje9gf9jqe0ho2o32t/okfc1smm2bcoq72donp5errn7er5ke94/1606415025000/11665013932396648190/11665013932396648190/1y_juW7C2HRKUMasXUsDLc3SEtB4pGzDf?e=download&authuser=0&nonce=vt38gsvtkf6ag&user=11665013932396648190&hash=j02lc3mafnn05po081qo7d7bjv4p99bf)    |
-| GTA5    | Cityscapes | Tesla T4              | 6.3 GB     | 51.20   | -       | -       |   [download](https://doc-14-84-docs.googleusercontent.com/docs/securesc/dq39omgiccorh3pje9gf9jqe0ho2o32t/1o7gnh830h80datpocrsacjik7eft9dp/1606415100000/11665013932396648190/11665013932396648190/1Tl8eMRsYLeTP4OQS9vAEqLpKwfrakOyi?e=download&authuser=0)    |
-| SYNTHIA | Cityscapes | Tesla V100-32GB       | 18.5 GB    | -       | 51.54   | 57.81   |   [download](https://doc-04-84-docs.googleusercontent.com/docs/securesc/dq39omgiccorh3pje9gf9jqe0ho2o32t/kji2mu504dlf71cnb5du9dj4d6td1k87/1606415025000/11665013932396648190/11665013932396648190/1IkElfEynRJWfJLssA0dM38NVRMufp1fa?e=download&authuser=0)    |
+| GTA5    | Cityscapes | Tesla V100-32GB       | 18.5 GB    | 51.88   | -       | -       |   [download](https://drive.google.com/file/d/1y_juW7C2HRKUMasXUsDLc3SEtB4pGzDf/view?usp=sharing)    |
+| GTA5    | Cityscapes | Tesla T4              | 6.3 GB     | 51.20   | -       | -       |   [download](https://drive.google.com/file/d/1Tl8eMRsYLeTP4OQS9vAEqLpKwfrakOyi/view?usp=sharing)    |
+| SYNTHIA | Cityscapes | Tesla V100-32GB       | 18.5 GB    | -       | 51.54   | 57.81   |   [download](https://drive.google.com/file/d/1IkElfEynRJWfJLssA0dM38NVRMufp1fa/view?usp=sharing)    |
 | SYNTHIA | Cityscapes | Tesla T4              | 6.3 GB     | -       | -       | -       |       |
 
 
@@ -65,11 +65,11 @@ ${ROOT_DIR}/data/cityscapes/gtFine
 We provide pre-trained models. We recommend that you download them and put them in `pretrained_models/`, which will save a lot of time for training and ensure consistent results.
 
 V100 models
-- GTA5 to Cityscapes: [G_gtav_at_warmup_v100.pth](https://doc-04-84-docs.googleusercontent.com/docs/securesc/dq39omgiccorh3pje9gf9jqe0ho2o32t/8v4hf70ar6o3dlgtk4fsunskkk4jbi0v/1606414350000/11665013932396648190/11665013932396648190/17Ajhp73mJ7XYDNnmxgIPSYR-LChuC9vY?e=download&authuser=0) and [M_gtav_at_warmup_v100.pth](https://doc-08-84-docs.googleusercontent.com/docs/securesc/dq39omgiccorh3pje9gf9jqe0ho2o32t/8koq3hrq096bf4opde4cvvbo1lc7iqf0/1606414350000/11665013932396648190/11665013932396648190/1MmruHl_vzu6D7keSJl6pT4y15slZX-ev?e=download&authuser=0)
-- SYNTHIA to Cityscapes: [G_syn_at_warmup_v100.pth](https://doc-0o-84-docs.googleusercontent.com/docs/securesc/dq39omgiccorh3pje9gf9jqe0ho2o32t/j854echg1oo95ofehqof1d1j18pk1jm6/1606414350000/11665013932396648190/11665013932396648190/1xhwGXUP9sMhh03OY2LVE4jX6t6zje8VI?e=download&authuser=0&nonce=d3orioj576e7k&user=11665013932396648190&hash=52o1rpppjppc1emn1b8n3amf9nc5d9gq) and [M_syn_at_warmup_v100.pth](https://doc-10-84-docs.googleusercontent.com/docs/securesc/dq39omgiccorh3pje9gf9jqe0ho2o32t/og0khk2s4s9nlsrs6f02t45e5jg0fbtg/1606414350000/11665013932396648190/11665013932396648190/1f-nNpL1Z0sMdCnH-DF159HxNlfhOnAZS?e=download&authuser=0)
+- GTA5 to Cityscapes: [G_gtav_at_warmup_v100.pth](https://drive.google.com/file/d/17Ajhp73mJ7XYDNnmxgIPSYR-LChuC9vY/view?usp=sharing) and [M_gtav_at_warmup_v100.pth](https://drive.google.com/file/d/1MmruHl_vzu6D7keSJl6pT4y15slZX-ev/view?usp=sharing)
+- SYNTHIA to Cityscapes: [G_syn_at_warmup_v100.pth](https://drive.google.com/file/d/1xhwGXUP9sMhh03OY2LVE4jX6t6zje8VI/view?usp=sharing) and [M_syn_at_warmup_v100.pth](https://drive.google.com/file/d/1f-nNpL1Z0sMdCnH-DF159HxNlfhOnAZS/view?usp=sharing)
 
 T4 models
-- GTA5 to Cityscapes: [G_gtav_at_warmup_t4.pth](https://doc-14-84-docs.googleusercontent.com/docs/securesc/dq39omgiccorh3pje9gf9jqe0ho2o32t/ho3vi1ppq7upb02a4jsbs995o785krnq/1606414350000/11665013932396648190/11665013932396648190/1J6TbdDaD5gkh68kN_5qDUd1hJ_JhhWTb?e=download&authuser=0) and [M_gtav_at_warmup_t4.pth](https://doc-0g-84-docs.googleusercontent.com/docs/securesc/dq39omgiccorh3pje9gf9jqe0ho2o32t/fbmq7mpvns7qv4kta3f8s5r4on5jtkvn/1606414350000/11665013932396648190/11665013932396648190/1MpgMGQVPM9hdpgeFoBXTg1Ltc5pJHmsS?e=download&authuser=0)
+- GTA5 to Cityscapes: [G_gtav_at_warmup_t4.pth](https://drive.google.com/file/d/1J6TbdDaD5gkh68kN_5qDUd1hJ_JhhWTb/view?usp=sharing) and [M_gtav_at_warmup_t4.pth](https://drive.google.com/file/d/1MpgMGQVPM9hdpgeFoBXTg1Ltc5pJHmsS/view?usp=sharing)
 - SYNTHIA to Cityscapes: coming soon
 
 (Optional) Of course, if you have plenty of time, you can skip this step and start training from scratch. We also provide these scripts.
