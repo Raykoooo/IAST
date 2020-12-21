@@ -84,16 +84,16 @@ Start self-training (download the pre-trained models first)
 cd code
 
 # GTA5 to Cityscapes (V100)
-sh ../scripts/self_training_only/run_gtav2cityscapes_self_traing_v100.sh
+sh ../scripts/self_training_only/run_gtav2cityscapes_self_traing_only_v100.sh
 # GTA5 to Cityscapes (T4)
-sh ../scripts/self_training_only/run_gtav2cityscapes_self_traing_t4.sh
+sh ../scripts/self_training_only/run_gtav2cityscapes_self_traing_only_t4.sh
 ```
 
 ```
 # SYNTHIA to Cityscapes (V100)
-sh ../scripts/self_training_only/run_syn2cityscapes_self_traing_v100.sh
+sh ../scripts/self_training_only/run_syn2cityscapes_self_traing_only_v100.sh
 # SYNTHIA to Cityscapes (T4)
-sh ../scripts/self_training_only/run_syn2cityscapes_self_traing_t4.sh
+sh ../scripts/self_training_only/run_syn2cityscapes_self_traing_only_t4.sh
 ```
 
 
