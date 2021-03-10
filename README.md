@@ -137,7 +137,7 @@ Please cite this paper in your publications if it helps your research:
 @article{mei2020instance,
   title={Instance Adaptive Self-Training for Unsupervised Domain Adaptation},
   author={Mei, Ke and Zhu, Chuang and Zou, Jiaqi and Zhang, Shanghang},
-  journal={arXiv preprint arXiv:2008.12197},
+  booktitle={European Conference on Computer Vision (ECCV)},
   year={2020}
 }
 ```
