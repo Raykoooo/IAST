@@ -70,7 +70,6 @@ V100 models
 
 T4 models
 - GTA5 to Cityscapes: [G_gtav_at_warmup_t4.pth](https://drive.google.com/file/d/1J6TbdDaD5gkh68kN_5qDUd1hJ_JhhWTb/view?usp=sharing) and [M_gtav_at_warmup_t4.pth](https://drive.google.com/file/d/1MpgMGQVPM9hdpgeFoBXTg1Ltc5pJHmsS/view?usp=sharing)
-- SYNTHIA to Cityscapes: coming soon
 
 (Optional) Of course, if you have plenty of time, you can skip this step and start training from scratch. We also provide these scripts.
 
