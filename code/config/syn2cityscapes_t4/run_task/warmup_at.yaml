@@ -12,18 +12,18 @@ MODEL:
   DISCRIMINATOR:
     TYPE: ["Origin-Predictor",]
     WEIGHT: [0.001,]
-    LR: [0.00002]
+    LR: [ 0.0001 ]
     LOSS: "MSELoss"
 TRAIN:
   ITER_VAL: 400
-  EPOCHES: 4
+  EPOCHES: 6
   OPTIMIZER: "Adam"
-  LR: 0.00002
-  BATCHSIZE: 1
+  LR: 0.00003
+  BATCHSIZE: 3
   ITER_REPORT: 100
   SCHEDULER: "CosineAnnealingLR_with_Restart"
   COSINEANNEALINGLR:
-    T_MAX: 4
+    T_MAX: 6
     T_MULT: 1.0
   SAVE_ALL: False
 DATASET:
@@ -35,7 +35,7 @@ DATASET:
     TYPE: "CityscapesDataset"
     ANNS: "../data/cityscapes_val.json"
     IMAGEDIR: "../data/cityscapes"
-    RESIZE_SIZE: [1280, 640]
+    RESIZE_SIZE: [ 1536, 768 ]
   TARGET:
     TYPE: "MsCityscapesDataset"
     ANNS: "../data/cityscapes_train.json"
