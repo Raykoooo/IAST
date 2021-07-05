@@ -15,7 +15,7 @@ The divergence between labeled training data and unlabeled testing data is a sig
 | GTA5    | Cityscapes | Tesla V100-32GB       | 18.5 GB    | 51.88   | -       | -       |   [download](https://drive.google.com/file/d/1y_juW7C2HRKUMasXUsDLc3SEtB4pGzDf/view?usp=sharing)    |
 | GTA5    | Cityscapes | Tesla T4              | 6.3 GB     | 51.20   | -       | -       |   [download](https://drive.google.com/file/d/1Tl8eMRsYLeTP4OQS9vAEqLpKwfrakOyi/view?usp=sharing)    |
 | SYNTHIA | Cityscapes | Tesla V100-32GB       | 18.5 GB    | -       | 51.54   | 57.81   |   [download](https://drive.google.com/file/d/1IkElfEynRJWfJLssA0dM38NVRMufp1fa/view?usp=sharing)    |
-| SYNTHIA | Cityscapes | Tesla T4              | 6.3 GB     | -       | -       | -       |       |
+| SYNTHIA | Cityscapes | Tesla T4              | 9.8 GB     | -       | 51.24   | 57.70   |   [download](https://drive.google.com/file/d/1A_3Sgo0-CUNrCIledzvhoC74eiCB9NRA/view?usp=sharing)    |
 
 
 ## Setup
@@ -70,6 +70,7 @@ V100 models
 
 T4 models
 - GTA5 to Cityscapes: [G_gtav_at_warmup_t4.pth](https://drive.google.com/file/d/1J6TbdDaD5gkh68kN_5qDUd1hJ_JhhWTb/view?usp=sharing) and [M_gtav_at_warmup_t4.pth](https://drive.google.com/file/d/1MpgMGQVPM9hdpgeFoBXTg1Ltc5pJHmsS/view?usp=sharing)
+- SYNTHIA to Cityscapes: [G_syn_at_warmup_t4.pth](https://drive.google.com/file/d/1-6vsPNOGukg-mxoJLKYQUwoFkFFi8kx4/view?usp=sharing) and [M_syn_at_warmup_t4.pth](https://drive.google.com/file/d/1sB8v1udK3PqSEta9pt9wEHPXy-gxyjDY/view?usp=sharing)
 
 (Optional) Of course, if you have plenty of time, you can skip this step and start training from scratch. We also provide these scripts.
 
