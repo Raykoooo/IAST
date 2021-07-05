@@ -60,7 +60,7 @@ ${ROOT_DIR}/data/cityscapes/leftImg8bit
 ${ROOT_DIR}/data/cityscapes/gtFine
 ```
 
-### 3) Download Pretrained Models (Coming soon)
+### 3) Download Pretrained Models
 
 We provide pre-trained models. We recommend that you download them and put them in `pretrained_models/`, which will save a lot of time for training and ensure consistent results.
 
